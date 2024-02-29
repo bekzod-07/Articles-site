@@ -43,3 +43,112 @@ img {
 .main-content {
     flex-grow: 1;
 }
+
+
+.section__hero {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section__left {
+    width: 600px;
+    height: 780px;
+    color: white;
+    background-image: url('../img/left-bg.png');
+}
+
+.section__left h2 {
+    padding-top: 326px;
+    padding-left: 158px;
+    width: 500px;
+    font-family: Bebas Neue;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 2px;
+    text-align: left;
+}
+
+.section__left button {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 2px;
+    text-align: left;
+    width: 210px;
+    height: 50px;
+    padding-left: 55px;
+    margin-left: 158px;
+    background-color: #1E90FF;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    gap: 12px; 
+}
+
+.section__left img {
+    position: absolute;
+    margin-left: 180px;
+    margin-top: 12px;
+}
+
+
+.section__right {
+    margin-left: 54px;
+    width: 492px;
+}
+
+.section__right__content {
+    margin-top: 24px;
+    display: flex;
+}
+
+.section__right__content__one img {
+    width: 160px;
+    height: 90px;
+    border-radius: 4px;
+}
+
+.section__right__content__two {
+    margin-left: 16px;
+}
+
+.section__right__content__two h2 {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.section__right__content__two__span1 {
+    margin-top: -20px;
+    opacity: 0.5;
+    margin-left: 20px;
+}
+
+.section__right__content__two img {
+    position: absolute;
+    margin-left: -20px;
+    margin-top: 3px;
+    width: 16px;
+    height: 16px;
+}
+
+.section__right__content__two__span2 {
+
+    margin-left: 44px;
+}
+
+.section__right__content__two__span2 img {
+    position: absolute;
+    margin-left: -20px;
+}
+
+.btn {
+    width: 480px;
+    height: 50px;
+    margin-top: 20px;
+    border: none;
+    background: #1E90FF;
+    color: white;
+    padding: 12px;
+    border-radius: 4px;
+}
